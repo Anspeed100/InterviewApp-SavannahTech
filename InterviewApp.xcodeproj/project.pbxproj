@@ -13,6 +13,8 @@
 		A14AB9FE2CD3923C0021EF3F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A14AB9FD2CD3923C0021EF3F /* Base */; };
 		A14ABA002CD3923F0021EF3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14AB9FF2CD3923F0021EF3F /* Assets.xcassets */; };
 		A14ABA032CD3923F0021EF3F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A14ABA022CD3923F0021EF3F /* Base */; };
+		A14ABA0D2CD396DD0021EF3F /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14ABA0C2CD396DD0021EF3F /* CameraViewController.swift */; };
+		A14ABA0F2CD397AE0021EF3F /* ImageProcessingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14ABA0E2CD397AE0021EF3F /* ImageProcessingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A14AB9FF2CD3923F0021EF3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A14ABA022CD3923F0021EF3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A14ABA042CD3923F0021EF3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A14ABA0C2CD396DD0021EF3F /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		A14ABA0E2CD397AE0021EF3F /* ImageProcessingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				A14AB9FF2CD3923F0021EF3F /* Assets.xcassets */,
 				A14ABA012CD3923F0021EF3F /* LaunchScreen.storyboard */,
 				A14ABA042CD3923F0021EF3F /* Info.plist */,
+				A14ABA0E2CD397AE0021EF3F /* ImageProcessingManager.swift */,
+				A14ABA0C2CD396DD0021EF3F /* CameraViewController.swift */,
 			);
 			path = InterviewApp;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A14ABA0F2CD397AE0021EF3F /* ImageProcessingManager.swift in Sources */,
 				A14AB9FB2CD3923C0021EF3F /* ViewController.swift in Sources */,
+				A14ABA0D2CD396DD0021EF3F /* CameraViewController.swift in Sources */,
 				A14AB9F72CD3923C0021EF3F /* AppDelegate.swift in Sources */,
 				A14AB9F92CD3923C0021EF3F /* SceneDelegate.swift in Sources */,
 			);
@@ -292,6 +300,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TF669678QH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = InterviewApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -319,6 +328,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TF669678QH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = InterviewApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
